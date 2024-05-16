@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,17 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+@font-face {
+  font-family: 'avenir_heavy';
+  src: url("./assets/fonts/avenir-lt-pro-cufonfonts/AvenirLTProHeavy.otf");
+}
+.ff_avenir_heavy{
+  font-family: 'Avenir''sans-serif';
+}
+.linear_circle{
+  background: linear-gradient(282deg, #87EEF0 15.9%, #FD9ABC 78.97%);
+}
+.animate-spin{
+  animation: spin 5s linear infinite !important ;
 }
